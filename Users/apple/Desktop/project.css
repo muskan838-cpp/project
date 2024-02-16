@@ -1,0 +1,153 @@
+@media screen and (max-width: 800px) 
+{
+    .left_div{
+        display: none;
+    }
+
+    #div_inside_right{
+        width: 100%;
+    }
+}
+
+body{
+    background-image: url("/Users/apple/Desktop/background bg.png");
+    background-attachment: fixed;
+   background-repeat: no-repeat;  
+    background-size: 100% 100%;
+}   
+.div1
+{
+    height: 50%;
+    background-color: white;
+    /*height: 600px;*/
+    margin: auto ;
+    margin-top: 10%;
+    width: 80%;
+    border-radius:  16px;
+    box-shadow: 2px 2px 20px  grey;
+    background-color: white;
+    display: flex;
+}
+.left_div
+{
+    width: 50%;
+}
+.div_inside_left
+{
+    height: 435px;
+    /*width: 435px;*/
+    width: 50%;
+    background-color: white;
+    /*margin-left: 100px;*/
+    margin-left: 30%;
+    margin-top: 90px;
+    float: left;
+    text-align: center;
+    
+}
+.div_inside_right
+{
+    /*height: 600px;*/
+height: 100%;
+    width: 50%;
+    border-radius: 0px 16px 16px 0px;
+    background-color:#EEEFF180;
+    ;
+    float: left;
+   /* margin-left: 2%;
+    /*margin-left: 115px;*/
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.now_now{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+.now_text
+{
+    font-size: 16px;
+    color: #141414;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.app_text
+{
+    font-size: 16px;
+    color: #141414;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.login_text
+{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.please
+{
+    
+    color: #262729;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.email_input
+{
+    height: 90px;
+    /*width: 300px;*/
+    width: 80%;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 16px;
+   /* margin-left: 100px;*/
+   margin-left: 7%;
+
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 18px;
+    display: flex;
+}
+
+.email_input2
+{
+    height: 90px;
+    width: 80%;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 16px;
+  /*  margin-left: 100px;*/
+  margin-left: 7%;
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 18px;
+    display: flex;
+
+}
+.y
+{
+    border: 1px;
+}
+.reset
+{
+    color: #FFA400;
+    /*margin-left: 250px;*/
+    margin-left: 65%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login_btn
+{
+    height: 56px;
+    width: 80%;
+    color: #FFA400;
+    background-color: #262729;
+    padding: 10px;
+   /* margin-left: 1%;*/
+   margin-right: 4%;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
